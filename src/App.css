@@ -1,6 +1,22 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
+
+.page-wrapper{
+  grid-column: 3/11;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  grid-column: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 
 .App-logo {
   height: 40vmin;
